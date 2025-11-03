@@ -28,7 +28,7 @@ const Hero = () => {
             </div>
             <img
               // src="./assets/images/hero-img-red-bg.jpg"
-              src="./assets/images/chandan_hd.png"
+              src="./assets/images/chandan_formal_cutout_square.png"
               alt="hero-img"
               className="main-img"
             />
