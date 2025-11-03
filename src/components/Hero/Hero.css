@@ -42,7 +42,7 @@
   height: 0.2rem;
 }
 
-.greet-content h3{
+.greet-content h3 {
   font-weight: 400;
 }
 
@@ -85,6 +85,11 @@
 .hero-img > div > img {
   width: 25rem;
   transition: all 0.3s ease;
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.hero-img > div > img:hover {
+  filter: drop-shadow(2px 4px 6px #a993fe);
 }
 
 .main-img {
@@ -107,8 +112,8 @@
   border: 1.5px solid #6852ba;
 }
 
-.tech-icon:hover{
-    box-shadow: 0px 0px 10px #a993fe;
+.tech-icon:hover {
+  box-shadow: 0px 0px 10px #a993fe;
 }
 
 /* .main-img:hover{
